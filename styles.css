@@ -34,17 +34,21 @@ header {
 /* Pseudo-classes for link behavior and order with errors */
 
 
-a:link {
-  color: red;
+
+.product a {
+  color: blue;
+  text-decoration: none;
 }
 
-a:visited {
-  color: purple;
-}
+
 
 /* mouse over link */
 a:hover {
   color: hotpink;
+}
+
+a:visited {
+  color: purple;
 }
 
 /* selected link */
